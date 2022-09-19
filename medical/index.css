@@ -83,28 +83,28 @@ margin-right: 60px;
 .top__button--active button svg{
     margin-left: 5px;
 }
-.welcome{
+.par{
     background-color: #FFF5F0;
     padding-left: 10%;
     padding-right: 5%;
     margin: 0;
     height: 70vh;
 }
-.welcome__smalltitle{
-    font-style: normal;
+.par__secondtitle{
+    font-style: monteserat;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: #1BA0AB;
 }
-.welcome__title{
+.par__title{
     font-weight: 700;
     font-size: 58px;
     line-height: 70px;
     letter-spacing: 0.2px;
     color: #252B42;
 }
-.welcome__desc{
+.par__desc{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -113,11 +113,11 @@ margin-right: 60px;
     color: #737373;
 
 }
-.welcome__footer{
+.par__footer{
  display: flex;
  padding-top: 30px;
 }
-.welcome__button button{
+.par__button button{
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -132,7 +132,7 @@ margin-right: 60px;
     border-radius: 3px;
     margin-right: 12px;
 }
-.welcome__button--active button{
+.par__button--active button{
     background-color: #1BA0AB;
     color: white;
 }
@@ -188,8 +188,8 @@ margin-right: 60px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.team__smalltitle{
-    font-style: normal;
+.team__secodtitle{
+    font-style: monteserat;
     font-weight: 700;
     font-size: 16px;
     line-height: 14px;
@@ -206,7 +206,15 @@ margin-right: 60px;
     color: #252B42;
 }
 
-.team__desc,.footer__decs{
+.team__desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: 30px;
+}
+.footer__decs{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -283,7 +291,7 @@ margin-right: 60px;
     padding-bottom: 60px;
     text-align: center;
 }
-.footer__smalltitle{
+.footer__secotitle{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -308,7 +316,7 @@ color:white;
 background-color: #1BA0AB;
 height: 45px;
 border-radius: 0%;
-border-color: #1BA0AB;
+border-color: #1BA0AB; 
 width: 10%;
 }
 .form__item{
@@ -333,14 +341,13 @@ width: 10%;
         grid-template-columns: auto auto auto;
     }
 }
-@media only screen and (max-width:884px) {
-    .card{
-        grid-template-columns: auto auto;
-    }
-}
+
 @media only screen and (max-width:884px) {
     .expert__img--left{
         display: none;
+    }
+    .card{
+        grid-template-columns: auto auto;
     }
 }
 @media only screen and (max-width:672px) {
@@ -361,7 +368,7 @@ width: 10%;
     body{
         overflow-x: hidden !important;
     }
-    .welcome__footer{
+    .par__footer{
         
         width: fit-content;
     }
