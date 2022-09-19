@@ -52,7 +52,7 @@ margin-right: 60px;
 .top__item--right{
     text-align: right;
 }
-.top__div Button{
+.top__div--Button{
     display: flex;
     float: right;
 }
