@@ -1,11 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif ;
     background-color: #FFF5F0;
-}
-button{
-    font-family: 'Montserrat', sans-serif !important; 
 }
 .top{
    width:500px;
@@ -33,11 +30,11 @@ margin-right: 60px;
  font-size: 24px;
  line-height: 32px;
 }
-.top__button--button{
+.top__b--b{
     padding-left: 30%;
     display: flex;
 }
-.top__nav-list{
+.top__nav--list{
     display: inline;
     text-align: left;
     margin-right: 20px;
@@ -52,15 +49,17 @@ margin-right: 60px;
 .top__item--right{
     text-align: right;
 }
-.top__div Button{
+.top__div--b{
     display: flex;
     float: right;
 }
-.top__button{
-
+.top__b{
     margin-right: 10px;
 }
-.top__divButton button{
+.top__b--one{
+    padding-top: 8px;
+}
+.top__divb-b{
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -73,38 +72,34 @@ margin-right: 60px;
     border: none;
     background-color: transparent;
     border-radius: 4px;
+    background-color: #1BA0AB;
+    color: white ;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif ;
+    
 }
-.top__button--active button{
- background-color: #1BA0AB;
- color: white ;
- border-radius: 4px;
- font-family: 'Montserrat', sans-serif !important;
-}
-.top__button--active button svg{
-    margin-left: 5px;
-}
-.welcome{
+.par{
     background-color: #FFF5F0;
     padding-left: 10%;
     padding-right: 5%;
     margin: 0;
     height: 70vh;
 }
-.welcome__smalltitle{
-    font-style: normal;
+.par__second-title{
+    font-style: monteserat;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: #1BA0AB;
 }
-.welcome__title{
+.par__title{
     font-weight: 700;
     font-size: 58px;
     line-height: 70px;
     letter-spacing: 0.2px;
     color: #252B42;
 }
-.welcome__desc{
+.par__desc{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -113,11 +108,11 @@ margin-right: 60px;
     color: #737373;
 
 }
-.welcome__footer{
+.par__footer{
  display: flex;
  padding-top: 30px;
 }
-.welcome__button button{
+.par__b--b{
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -132,7 +127,7 @@ margin-right: 60px;
     border-radius: 3px;
     margin-right: 12px;
 }
-.welcome__button--active button{
+.par__b--active{
     background-color: #1BA0AB;
     color: white;
 }
@@ -170,7 +165,7 @@ margin-right: 60px;
     order: 2;
     flex-grow: 0;
 }
-.expert__button--active{
+.expert__b--active{
     letter-spacing: 0.2px;
     color: #1BA0AB;
     font-weight: 700;
@@ -188,14 +183,23 @@ margin-right: 60px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.team__smalltitle{
-    font-style: normal;
+.team__secod-title{
+    font-style: monteserat;
     font-weight: 700;
     font-size: 16px;
     line-height: 14px;
     color: #1BA0AB;
 }
-.team__title,.footer__title{
+.team__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 5px;                                    
+    letter-spacing: 0px;
+    margin: 0;
+    margin-top: 39px;
+    padding: 0;
+    color: #252B4
+}.footer__title{
     font-weight: 700;
     font-size: 40px;
     line-height: 5px;                                    
@@ -206,7 +210,15 @@ margin-right: 60px;
     color: #252B42;
 }
 
-.team__desc,.footer__decs{
+.team__desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: 30px;
+}
+.footer__decs{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -229,7 +241,7 @@ margin-right: 60px;
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.196);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.196);
 }
-.card img{
+.card__img{
     object-fit: cover;
     width: fit-content;
     border-top-left-radius: 4px;
@@ -242,14 +254,14 @@ margin-right: 60px;
     display: flex;
     margin-left: 20px;
 }
-.card__footer li{
+.card__footer--li{
     text-align: left;
     display: inline;
     margin-left: 20px;
     width: fit-content;
     margin-left: 12px;
 }
-.card__footer li img{
+.card__footer--li-img{
     width: 25px;
     margin: 0;
     padding: 0;
@@ -283,7 +295,7 @@ margin-right: 60px;
     padding-bottom: 60px;
     text-align: center;
 }
-.footer__smalltitle{
+.footer__seco-title{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -295,7 +307,7 @@ margin-right: 60px;
     text-align: center;
 
 }
-.form__item input{
+.form__item--input{
     width: 56%;
     background: #F9F9F9;
     border: 1px solid #E6E6E6;
@@ -303,12 +315,12 @@ margin-right: 60px;
     padding: 12px;
 
 }
-.form__item button{
+.form__item--button{
 color:white;
 background-color: #1BA0AB;
 height: 45px;
 border-radius: 0%;
-border-color: #1BA0AB;
+border-color: #1BA0AB; 
 width: 10%;
 }
 .form__item{
@@ -321,7 +333,7 @@ width: 10%;
 }
  
 @media only screen and (max-width:1151px){
-    .form__item button{
+    .form__item b{
         width: fit-content;
        
     } 
@@ -333,14 +345,13 @@ width: 10%;
         grid-template-columns: auto auto auto;
     }
 }
-@media only screen and (max-width:884px) {
-    .card{
-        grid-template-columns: auto auto;
-    }
-}
+
 @media only screen and (max-width:884px) {
     .expert__img--left{
         display: none;
+    }
+    .card{
+        grid-template-columns: auto auto;
     }
 }
 @media only screen and (max-width:672px) {
@@ -354,14 +365,14 @@ width: 10%;
     }
 }
 @media only screen and (max-width:466px) {
-    .top__button--active{
+    .top__b--active{
         display: none;
         width: fit-content;
     }
     body{
         overflow-x: hidden !important;
     }
-    .welcome__footer{
+    .par__footer{
         
         width: fit-content;
     }
