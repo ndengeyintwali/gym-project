@@ -30,7 +30,7 @@ margin-right: 60px;
  font-size: 24px;
  line-height: 32px;
 }
-.top__button--button{
+.top__b--b{
     padding-left: 30%;
     display: flex;
 }
@@ -49,17 +49,17 @@ margin-right: 60px;
 .top__item--right{
     text-align: right;
 }
-.top__div--Button{
+.top__div--b{
     display: flex;
     float: right;
 }
-.top__button{
+.top__b{
     margin-right: 10px;
 }
-.top__button--one{
+.top__b--one{
     padding-top: 8px;
 }
-.top__divButton-button{
+.top__divb-b{
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -112,7 +112,7 @@ margin-right: 60px;
  display: flex;
  padding-top: 30px;
 }
-.par__button--button{
+.par__b--b{
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -127,7 +127,7 @@ margin-right: 60px;
     border-radius: 3px;
     margin-right: 12px;
 }
-.par__button--active{
+.par__b--active{
     background-color: #1BA0AB;
     color: white;
 }
@@ -165,7 +165,7 @@ margin-right: 60px;
     order: 2;
     flex-grow: 0;
 }
-.expert__button--active{
+.expert__b--active{
     letter-spacing: 0.2px;
     color: #1BA0AB;
     font-weight: 700;
@@ -241,7 +241,7 @@ margin-right: 60px;
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.196);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.196);
 }
-.card img{
+.card__img{
     object-fit: cover;
     width: fit-content;
     border-top-left-radius: 4px;
@@ -261,7 +261,7 @@ margin-right: 60px;
     width: fit-content;
     margin-left: 12px;
 }
-.card__footer--li__img{
+.card__footer--li-img{
     width: 25px;
     margin: 0;
     padding: 0;
@@ -333,7 +333,7 @@ width: 10%;
 }
  
 @media only screen and (max-width:1151px){
-    .form__item button{
+    .form__item b{
         width: fit-content;
        
     } 
@@ -365,7 +365,7 @@ width: 10%;
     }
 }
 @media only screen and (max-width:466px) {
-    .top__button--active{
+    .top__b--active{
         display: none;
         width: fit-content;
     }
