@@ -4,9 +4,6 @@ body{
     font-family: 'Montserrat', sans-serif ;
     background-color: #FFF5F0;
 }
-button{
-    font-family: 'Montserrat', sans-serif; 
-}
 .top{
    width:500px;
     padding-left: 10%;
@@ -57,10 +54,12 @@ margin-right: 60px;
     float: right;
 }
 .top__button{
-
     margin-right: 10px;
 }
-.top__divButton button{
+.top__button--one{
+    padding-top: 8px;
+}
+.top__divButton-button{
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -73,15 +72,11 @@ margin-right: 60px;
     border: none;
     background-color: transparent;
     border-radius: 4px;
-}
-.top__button--active button{
- background-color: #1BA0AB;
- color: white ;
- border-radius: 4px;
- font-family: 'Montserrat', sans-serif ;
-}
-.top__button--active button svg{
-    margin-left: 5px;
+    background-color: #1BA0AB;
+    color: white ;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif ;
+    
 }
 .par{
     background-color: #FFF5F0;
@@ -90,7 +85,7 @@ margin-right: 60px;
     margin: 0;
     height: 70vh;
 }
-.par__secondtitle{
+.par__second-title{
     font-style: monteserat;
     font-weight: 700;
     font-size: 16px;
@@ -117,7 +112,7 @@ margin-right: 60px;
  display: flex;
  padding-top: 30px;
 }
-.par__button button{
+.par__button--button{
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -132,7 +127,7 @@ margin-right: 60px;
     border-radius: 3px;
     margin-right: 12px;
 }
-.par__button--active button{
+.par__button--active{
     background-color: #1BA0AB;
     color: white;
 }
@@ -188,14 +183,23 @@ margin-right: 60px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.team__secodtitle{
+.team__secod-title{
     font-style: monteserat;
     font-weight: 700;
     font-size: 16px;
     line-height: 14px;
     color: #1BA0AB;
 }
-.team__title,.footer__title{
+.team__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 5px;                                    
+    letter-spacing: 0px;
+    margin: 0;
+    margin-top: 39px;
+    padding: 0;
+    color: #252B4
+}.footer__title{
     font-weight: 700;
     font-size: 40px;
     line-height: 5px;                                    
@@ -250,14 +254,14 @@ margin-right: 60px;
     display: flex;
     margin-left: 20px;
 }
-.card__footer li{
+.card__footer--li{
     text-align: left;
     display: inline;
     margin-left: 20px;
     width: fit-content;
     margin-left: 12px;
 }
-.card__footer li img{
+.card__footer--li__img{
     width: 25px;
     margin: 0;
     padding: 0;
@@ -291,7 +295,7 @@ margin-right: 60px;
     padding-bottom: 60px;
     text-align: center;
 }
-.footer__secotitle{
+.footer__seco-title{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -303,7 +307,7 @@ margin-right: 60px;
     text-align: center;
 
 }
-.form__item input{
+.form__item--input{
     width: 56%;
     background: #F9F9F9;
     border: 1px solid #E6E6E6;
@@ -311,7 +315,7 @@ margin-right: 60px;
     padding: 12px;
 
 }
-.form__item button{
+.form__item--button{
 color:white;
 background-color: #1BA0AB;
 height: 45px;
